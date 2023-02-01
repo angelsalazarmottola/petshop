@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 html {
     font-family: 'Roboto', sans-serif;
 }
@@ -13,7 +12,6 @@ html {
         background-color: #F0A83E;
         height: 10vh;
     }
-
     .logo {
         display: flex;
         flex-direction: row;
@@ -24,67 +22,64 @@ html {
         width: 35vw;
         background-size: cover;
     }
-
-    .brown-text {
-        color:#3C2313;
-        font-weight: bold;
-    }
-
-    .white-text {
-        color: #fff;
-        font-weight: bold;
-    }
-
-    .vector {
-        margin-top: 0.5vh;
-        height: 2vh;
-        width: 3vw;
-    }
-
     .icon-menu {
         display: inline-block;
         position: relative;
         margin-top: 4vh;
         margin-left: 90%;
     }
-
     .nav-list {
         display:none; 
     }
-    
     .container {
         background-image: url(..//img/Full\ 1.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
         width: 100%;
         display: flex;
     }
-
     .text-container {
         width: 100vw;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-top: -14vh;
-        /* margin-right: 10vw; */
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
     }
-
     .title-container {
         background-color: #fff;
         color: #000;
         font-size: 1.75rem;
         font-weight: 500;
-        margin: 43vh 8vw 4vw 0;
+        margin: 35vh 8vw 4vw 0;
         padding: 10px 40px;
         border-radius: 5px;
         text-align: center;
     }
-
+    .desc-container {
+        margin-right: 45px;
+    }
+    .desc-container p {
+        color: #fff;
+        width:210px;
+        height: 15px;
+        font-size:18px;
+        font-weight: 400;
+    }
+    .btn-container {
+        margin-top: 20px;
+        margin-right: 60px;
+        width: 141px;
+        height: 49px;
+    }
+    .btn-text {
+        background-color: #F0A83E;
+        color: #fff;
+        border-radius: 5px;
+        border-style:none;
+        font-size: 16px;
+        font-weight: 400px;
+        padding: 20px;
+    }
     .container-2 {
         display: flex;
         flex-direction: column;
@@ -95,16 +90,13 @@ html {
         /* border: solid  red 5px; */
         margin-top: 30px;
     }
-
     .img-2 {
         width: 94px;
     }
-
     .title {
         padding: 20px 25px;
         text-align: center;
     }
-
     .title-product {
         /* border: solid  red 5px; */
         width: 212px;
@@ -112,54 +104,44 @@ html {
         font-size: 40px;
         font-weight: 700;
     }
-
     .content{
         margin-top: 30px;
     } 
-
     span {
         font-weight: 400;
         font-size:13px;
         margin-right: 25px;
     }
-    
     .product{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 40px;
     } 
-
     .img-product {
         position: absolute;
         width: 239px;
         height: 290px;
     }
-
     .desc-product {
         position:relative;
         text-align: center;
         margin-top: 200px;
     }
-
     .desc-product h4 {
         width: 127px;
-        font-weight: 500;
+        height:15px;
         font-size: 13px;
         color:#3C2313;
     }
-
     .price-product {
         position: relative;
         color: #F0A83E;
-
     }
-
     .price-product span {
         text-align: center;
         margin: auto;
     }
-
     .form {
         display: flex;
         flex-direction: column;
@@ -173,22 +155,20 @@ html {
         color: #3C2313;
         margin-top: 30px;
     }
-
     .form-page {
         margin-top: 30px;
         text-align: center;
         /* border: solid  red 5px; */
     }
-
     .input-form {
         width: 298px;
         height: 40px;
         border-radius: 15px;
         background-color: #3C2313;
+        color: #fff;
         margin-bottom: 10px;
         border-style: none;
     }
-
     .btn-reset, .btn-submit {
         width:200px;
         height: 45px;
@@ -202,32 +182,24 @@ html {
     .btn-reset {
         background-color: #8A8787;
     }
-
     .btn-submit {
         background-color:  #F0A83E;
     }
-
     .newsletter {
         background-color:#F0A83E;
         padding: 15px 0;
         margin-top: 20px;
-        /* display: flex;
-        flex-direction: column; */
     }
-
     .title-news {
         display: flex;
         justify-content: flex-start;
-        /* justify-content: flex-start;
-        border: solid  red 5px; */
+        /* border: solid  red 5px; */
     }
-
     .img-news {
         width: 33px;
         height: 20px;
         margin-left: 5px;
         margin-right: 55px;
-        /* border: solid  red 5px; */
     }
     .newsletter h4 {
         color: #fff;
@@ -237,16 +209,12 @@ html {
         font-size: 20px;
         line-height: 23px;
         text-align: left;
-        /* margin:auto; */
-        /* border: solid  red 5px; */
     }
-
     .datos-new {
         display: flex;
         justify-content:space-around;
         padding-top: 20px;
     }
-
     .datos {
         background-color: #fff;
         color:#A0A0A0;
@@ -260,7 +228,6 @@ html {
         margin-left: 15px;
         /* border: solid  red 5px; */
     }
-
     .btn-datos {
         background-color:#3C2313;
         color: #fff;
@@ -269,56 +236,44 @@ html {
         border-radius: 15px;
         font-weight: 700;
         font-size: 15px;
-        /* margin-left:5px; */
         margin-right: 47px;
         border-style: none;
     }
-
     footer {
         background-color:#3C2313;
+        text-align: center;
     }
-
     .img-logo {
         width: 134px;
         height:18px;
         margin: 20px 0;
-        text-align: center;
     }
-
     .footer-logo {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding-top: 20px 0;
         margin-left: 95px;
-        /* border: solid  red 5px; */
-
     }
-
     .location {
         width: 188px;
         height: 68px;
-        /* border: solid  red 5px; */
     }
-
     .phone {
         width: 304px;
         height: 84px;
-        /* border: solid  red 5px; */
     }
-
     .email {
         width: 284px;
         height: 68px;
-        /* border: solid  red 5px; */
     }
-
     .copyright {
         background-color: #222222;
         padding: 10px 0;
-        
     }
-
+    .footer-img2 {
+        display: none;
+    }
     .copyright p {
         color:#fff;
         width: 241px;
@@ -328,5 +283,206 @@ html {
         margin: auto;
         text-align: center;
     }
+}
 
+@media (min-width: 1025px) {
+    .logo {
+        width: 250px;
+        height: 23px;
+    }
+    .icon-menu {
+        display: none;
+    }
+    .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        /* border: solid red 5px; */
+    }
+    .nav-list ul {
+        display: flex;
+        list-style: none;
+        margin-right: 45px;
+        /* border: solid red 5px; */
+    }
+    .nav-list li {
+        display: flex;
+        justify-content: space-around; 
+        text-align: center;
+        margin-top: 10px;
+        padding: 15px;
+        /* border: solid red 5px;  */
+    }
+    .categories {
+        width: 80px;
+        height: 14px;
+    }
+    .pets {
+        width: 43px;
+        height: 14px;
+    }
+    .about {
+        width:70px;
+        height: 15px;
+    }
+    .contact{
+        width:90px;
+        height: 14px;
+    }
+    .container {
+        background-image: url(..//img/bowl-and-pet-daities-on-green-background\ 1.png);
+        width: 100%;
+    }
+    .title-container {
+        color: #3C2313;
+        font-size: 24px;
+        font-weight: 400;
+        padding: 15px 2px;
+        margin: 42vh 1vw 4vw 0;
+        width:300px;
+        /* border: solid red 5px; */
+    }
+    .desc-container {
+        margin-right: 62px;
+        margin-top: -40px;
+    }
+    .desc-container p {
+        width:190px;
+        height: 19px;
+        font-size:16px;
+        /* border: solid red 5px;  */
+    }
+    .btn-container {
+        margin-top: 10px;
+        margin-right: 86px;
+    }
+    .title-product {
+        color: #3C2313;
+        /* border: solid  red 5px; */
+        width: 406px;
+        height: 47px;
+    }
+
+    .products {
+        display: flex;
+        justify-content: space-around;
+        width:70%;
+        /* border: solid red 5px; */
+    }
+    .img-product {
+        background-color: #FBFAF6;
+        width: 250px;
+        height: 312px;
+    }
+    .desc-product {
+        /* background-color: #FBFAF6; */
+        margin-top: 250px;
+    }
+    .desc-product h4 {
+        width: 160px;
+        height:25px;
+        font-size: 16px;
+        color:#3C2313;
+    }
+    .price-product {
+        width: 40px;
+        height: 25px;
+        font-size: 15px;
+    }
+    .title-form {
+        margin-top: 60px;
+    }
+    .title-contact {
+        width: 145px;
+        height: 29px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .form-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-form {
+        width: 400px;
+        height: 40px;
+        padding: 0 10px;
+    }
+    .form-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .btn-reset, .btn-submit {
+        width:120px;
+        height: 20px;
+        font-size: 16px;
+        padding-bottom: 35px;
+    }
+    .btn-reset {
+        padding-left: 25px;
+    }
+    .btn-submit {
+       padding-left: 35px;
+    }
+    .newsletter {
+        display: flex;
+        justify-content: space-between;
+    }
+    .datos-new {
+        display: flex;
+        justify-content:flex-end;
+        /* border: solid red 5px; */
+        margin-right: 20px;
+        width: 520px;
+        padding: 5px;
+    }
+    .title-news {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 25px;
+        width: 588px;
+        /* border: solid red 5px; */
+    }
+    .title-news h4, .img-news {
+        padding-top: 15px;
+        /* border: solid red 5px; */
+    }
+    .title-news h4 {
+        margin-left: 5px;
+    }
+    .img-news {
+        width:37px;
+        height: 35px;
+        margin-right: 17px;
+    }
+    .datos {
+        width: 350px;
+        margin-right: 20px;
+    }
+    .footer-contact {
+        display: flex;
+        justify-content: space-between;
+        padding:25px 0;
+    }
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 80px;
+    }
+    .footer-img {
+        display:none;
+    }
+    .footer-img2 {
+        display: flex;
+        justify-content: flex-end;
+        /* border: solid red 5px; */
+        margin-right: 80px;
+    }
+    .img-logo2 {
+        width: 166px;
+        height: 23px;
+        margin:auto;
+    }
 }

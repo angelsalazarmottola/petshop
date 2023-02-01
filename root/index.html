@@ -13,11 +13,8 @@
 </head>
 <body>
     <header class="encabezado">
-        <div class="logo">
-            <img class="vector" src="img/Cat.png" alt="logo">
-            <span class="brown-text"> Front</span>
-            <span class="white-text"> Cat&Dog</span>
-            <img class="vector" src="img/Dog.png" alt="logo">
+        <div class="principal-logo">
+            <img class="logo" src="img/Logoprincipal.png" alt="logo">
         </div>
         <div class="icon-menu">
             <img src="/root/img/Vector (3).png" alt="menu">
@@ -26,9 +23,10 @@
             
             <div class="nav-list">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><img class="categories" src="img/Categorias.png"></li>
+                    <li><img class="pets" src="img/Pets.png"></li>
+                    <li><img class="about" src="img/Sobre Nosotros.png"></li>
+                    <li><img class="contact" src="img/Contactanos.png"></li>
                 </ul>
             </div>
         </div>
@@ -41,8 +39,8 @@
                 <div class="desc-container">
                     <p>Comederos en descuento!</p>
                 </div>
-                <div.class="btn-container"> 
-                    <button>Comederos</button>
+                <div class="btn-container"> 
+                    <button class="btn-text">COMEDEROS</button>
                 </div>
             </div>
         </div>
@@ -63,40 +61,41 @@
             <span> - </span>
             <span> Comida </span>
         </div>
-        
-        <div class="product">
-            <div class="img-product">
-                <img src="/root/img/churrasquito.png">
+        <div class="products">
+            <div class="product">
+                <div class="img-product">
+                    <img src="/root/img/churrasquito.png">
+                </div>
+                <div class="desc-product">
+                    <h4>Juguete Churrasquito</h4>
+                </div>
+                <div class="price-product">
+                    <span>$150</span>
+                </div>
             </div>
-            <div class="desc-product">
-                <h4>Juguete Churrasquito</h4>
+    
+            <div class="product">
+                <div class="img-product">
+                    <img src="/root/img/comedero.png">
+                </div>
+                <div class="desc-product">
+                    <h4>Comedero para perro</h4>
+                </div>
+                <div class="price-product">
+                    <span>$250</span>
+                </div>
             </div>
-            <div class="price-product">
-                <span>$150</span>
-            </div>
-        </div>
-
-        <div class="product">
-            <div class="img-product">
-                <img src="/root/img/comedero.png">
-            </div>
-            <div class="desc-product">
-                <h4>Comedero para perro</h4>
-            </div>
-            <div class="price-product">
-                <span>$250</span>
-            </div>
-        </div>
-
-        <div class="product">
-            <div class="img-product">
-                <img src="/root/img/Huesito.png">
-            </div>
-            <div class="desc-product">
-                <h4>Juguete Huesito</h4>
-            </div>
-            <div class="price-product">
-                <span>$650</span>
+    
+            <div class="product">
+                <div class="img-product">
+                    <img src="/root/img/Huesito.png">
+                </div>
+                <div class="desc-product">
+                    <h4>Juguete Huesito</h4>
+                </div>
+                <div class="price-product">
+                    <span>$650</span>
+                </div>
             </div>
         </div>
     </div>  
@@ -109,7 +108,7 @@
             <form class="form-text" action="#" method="post">
                 <input class ="input-form" type="text" name="name" placeholder="Nombre y Apellido">
                 <input class ="input-form" type="email" name="email" placeholder="Ingresa tu Correo Electrónico">
-                <input class ="input-form" type="number" name="number" placeholder="Teléfono">
+                <input class ="input-form" type="text" name="number" placeholder="Teléfono">
                 <div class="form-btn">
                     <input class="btn-reset" type="button" value="Resetear" >
                     <input class="btn-submit" type="button" value="Enviar" >
@@ -131,17 +130,26 @@
     </div>
 
     <footer>
-        <img class="img-logo" src="/root/img/Logo.png" alt="logo">
-        <div class="footer-logo">
-            <img class="location" src="/root/img/location.png" alt="location">
-            <img class="phone" src="/root/img/Phone.png" alt="logo">
-            <img class="email" src="/root/img/Correo.png" alt="logo">
+        <div class="footer-contact">
+            <div class="footer-img">
+                <img class="img-logo" src="/root/img/Logo.png" alt="logo">
+            </div>
+        
+            <div class="footer-logo">
+                <img class="location" src="/root/img/location.png" alt="location">
+                <img class="phone" src="/root/img/Phone.png" alt="logo">
+                <img class="email" src="/root/img/Correo.png" alt="logo">
+            </div>
+
+            <div class="footer-img2">
+                <img class="img-logo2" src="/root/img/Logo.png" alt="logo">
+            </div>
         </div>
 
         <div class="copyright">
             <p> Desarrollado por <a href="https://www.linkedin.com/in/angel-salazar-mottola/">Angel Salazar</a></p>
         </div>
-
+        
     </footer>
 
 </body>
